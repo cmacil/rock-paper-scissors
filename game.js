@@ -1,5 +1,3 @@
-let playerPieces = ["rock", "paper", "scissors"];
-
 function getComputerChoice() {
 	return Math.floor(Math.random() * 3);
 }
@@ -76,5 +74,6 @@ function game() {
 	};
 }
 
+let playerPieces = ["rock", "paper", "scissors"];
 game();
 
